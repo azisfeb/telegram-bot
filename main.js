@@ -10,8 +10,6 @@ bot.start((ctx) => {
     ctx.reply(message);
 })
 
-bot.telegram.sendMessage(-616174783, "Push Message when server runing....")
-
 bot.command("fact", async (ctx) => {
     try{
         ctx.reply(`Generating image, please wait...`);
