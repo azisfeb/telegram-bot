@@ -9,7 +9,7 @@ bot.start((ctx) => {
     let message = `Please use /fact command to receive a new fact about animals.`
     ctx.reply(message);
 })
-
+ 
 bot.command("fact", async (ctx) => {
     try{
         ctx.reply(`Generating image, please wait...`);
